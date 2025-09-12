@@ -1,0 +1,17 @@
+{
+  "name": "Ada Lovelace Abir",
+  "version": "1.0.0",
+  "description": "Ada Lovelace Abir dynamic portfolio website",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed for static site'",
+    "start": "serve public"
+  },
+  "keywords": [" Ada lovelace Abir","portfolio", "website", "developer"],
+  "author": "Ada Lovelace Abir",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0",
+    "vercel": "^28.0.0"
+  }
+}

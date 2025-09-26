@@ -40,7 +40,7 @@ document.getElementById('downloadCV').addEventListener('click', function(e) {
     // In a real application, you would have:
     // const link = document.createElement('a');
     // link.href = 'path/to/your/cv.pdf';
-    // link.download = 'Your_Name_CV.pdf';
+     link.download = 'CV_Abir.pdf';
     // link.click();
 });
 

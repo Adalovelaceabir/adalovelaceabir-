@@ -33,15 +33,17 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// CV Download functionality
 document.getElementById('downloadCV').addEventListener('click', function(e) {
     e.preventDefault();
-    alert('CV download started! In a real application, this would download your CV file.');
-    // In a real application, you would have:
-    // const link = document.createElement('a');
-    // link.href = 'path/to/your/cv.pdf';
-     link.download = 'CV_Abir.pdf';
-    // link.click();
+    alert('CV ডাউনলোড শুরু হলো!');
+
+    const link = document.createElement('a');
+    link.href = 'CV_Abir.pdf';    // তোমার CV ফাইলের নাম
+    link.download = 'CV_Abir.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
 });
 
 // Animate skill bars
